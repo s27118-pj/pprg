@@ -12,8 +12,8 @@ int main()
     cin >> liczbagosci;
     cout << "Ilosc kawalkow pizzy:";
     cin >> liczbakawalkow;
-    calosc = liczbagosci/liczbakawalkow;
-    reszta = liczbagosci%liczbakawalkow;
+    calosc = liczbakawalkow/liczbagosci;
+    reszta = liczbakawalkow%liczbagosci;
     cout<<"Ilosc kawalka pizzy na jednego goscia to: " << calosc << endl;
     return 0;
 }
